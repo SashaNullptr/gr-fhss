@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1Spread_1_1ds__spreader__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::Spread::ds_spreader_impl</compoundname>
+    <basecompoundref refid="classgr_1_1Spread_1_1ds__spreader" prot="public" virt="non-virtual">gr::Spread::ds_spreader</basecompoundref>
+    <includes refid="ds__spreader__impl_8h" local="no">ds_spreader_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1ds__spreader__impl_1af393008cb07b3759e350dae87cf83450" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::Spread::ds_spreader_impl::_size</definition>
+        <argsstring></argsstring>
+        <name>_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_spreader_impl.h" line="34" column="17" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_spreader_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1ds__spreader__impl_1aa390265c85f861d57129cf1eff8d2175" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::Spread::ds_spreader_impl::_samp_chip</definition>
+        <argsstring></argsstring>
+        <name>_samp_chip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_spreader_impl.h" line="35" column="17" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_spreader_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1ds__spreader__impl_1a50fc26753f2e0bd35d0285aecc476365" prot="private" static="no" mutable="no">
+        <type><ref refid="classLFSR" kindref="compound">LFSR</ref> *</type>
+        <definition>LFSR* gr::Spread::ds_spreader_impl::code</definition>
+        <argsstring></argsstring>
+        <name>code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_spreader_impl.h" line="37" column="13" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_spreader_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1ds__spreader__impl_1a9970fec81398727a8328ae8124fb605b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::Spread::ds_spreader_impl::d_clock</definition>
+        <argsstring></argsstring>
+        <name>d_clock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_spreader_impl.h" line="39" column="11" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_spreader_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1ds__spreader__impl_1a7e302bf14e71a81d55b9323fbf1e7104" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::Spread::ds_spreader_impl::d_offset</definition>
+        <argsstring></argsstring>
+        <name>d_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_spreader_impl.h" line="40" column="11" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_spreader_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1Spread_1_1ds__spreader__impl_1ae9707d679fba271c09beaf0238685d60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::Spread::ds_spreader_impl::ds_spreader_impl</definition>
+        <argsstring>(const int samples_per_chip, const polynomial gen, const polynomial init)</argsstring>
+        <name>ds_spreader_impl</name>
+        <param>
+          <type>const int</type>
+          <declname>samples_per_chip</declname>
+        </param>
+        <param>
+          <type>const <ref refid="common_8h_1aad4dead84a9a2396b289c2751d5a470b" kindref="member">polynomial</ref></type>
+          <declname>gen</declname>
+        </param>
+        <param>
+          <type>const <ref refid="common_8h_1aad4dead84a9a2396b289c2751d5a470b" kindref="member">polynomial</ref></type>
+          <declname>init</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_spreader_impl.h" line="43" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1Spread_1_1ds__spreader__impl_1ae08de9c0c6c71a7cd0ba9e139fd3d241" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::Spread::ds_spreader_impl::~ds_spreader_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~ds_spreader_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_spreader_impl.h" line="47" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1Spread_1_1ds__spreader__impl_1aa6870b393d7ccbd3b842f208ad5871aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::Spread::ds_spreader_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_spreader_impl.h" line="49" column="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>sync_block</label>
+      </node>
+      <node id="2">
+        <label>gr::Spread::ds_spreader</label>
+        <link refid="classgr_1_1Spread_1_1ds__spreader"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::Spread::ds_spreader_impl</label>
+        <link refid="classgr_1_1Spread_1_1ds__spreader__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>sync_block</label>
+      </node>
+      <node id="2">
+        <label>gr::Spread::ds_spreader</label>
+        <link refid="classgr_1_1Spread_1_1ds__spreader"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::Spread::ds_spreader_impl</label>
+        <link refid="classgr_1_1Spread_1_1ds__spreader__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_spreader_impl.h" line="32" column="1" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_spreader_impl.h" bodystart="31" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classgr_1_1Spread_1_1ds__spreader__impl_1aa390265c85f861d57129cf1eff8d2175" prot="private" virt="non-virtual"><scope>gr::Spread::ds_spreader_impl</scope><name>_samp_chip</name></member>
+      <member refid="classgr_1_1Spread_1_1ds__spreader__impl_1af393008cb07b3759e350dae87cf83450" prot="private" virt="non-virtual"><scope>gr::Spread::ds_spreader_impl</scope><name>_size</name></member>
+      <member refid="classgr_1_1Spread_1_1ds__spreader__impl_1a50fc26753f2e0bd35d0285aecc476365" prot="private" virt="non-virtual"><scope>gr::Spread::ds_spreader_impl</scope><name>code</name></member>
+      <member refid="classgr_1_1Spread_1_1ds__spreader__impl_1a9970fec81398727a8328ae8124fb605b" prot="private" virt="non-virtual"><scope>gr::Spread::ds_spreader_impl</scope><name>d_clock</name></member>
+      <member refid="classgr_1_1Spread_1_1ds__spreader__impl_1a7e302bf14e71a81d55b9323fbf1e7104" prot="private" virt="non-virtual"><scope>gr::Spread::ds_spreader_impl</scope><name>d_offset</name></member>
+      <member refid="classgr_1_1Spread_1_1ds__spreader__impl_1ae9707d679fba271c09beaf0238685d60" prot="public" virt="non-virtual"><scope>gr::Spread::ds_spreader_impl</scope><name>ds_spreader_impl</name></member>
+      <member refid="classgr_1_1Spread_1_1ds__spreader_1aec1a4319c3085f5f9685aa6fe376fbd0" prot="public" virt="non-virtual"><scope>gr::Spread::ds_spreader_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1Spread_1_1ds__spreader_1af9f6740d9f3b2649afad7ae9e3944c1c" prot="public" virt="non-virtual"><scope>gr::Spread::ds_spreader_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1Spread_1_1ds__spreader__impl_1aa6870b393d7ccbd3b842f208ad5871aa" prot="public" virt="non-virtual"><scope>gr::Spread::ds_spreader_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1Spread_1_1ds__spreader__impl_1ae08de9c0c6c71a7cd0ba9e139fd3d241" prot="public" virt="non-virtual"><scope>gr::Spread::ds_spreader_impl</scope><name>~ds_spreader_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

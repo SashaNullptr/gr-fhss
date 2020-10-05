@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacegr_1_1Spread" kind="namespace" language="C++">
+    <compoundname>gr::Spread</compoundname>
+    <innerclass refid="classgr_1_1Spread_1_1cpfsk__demod" prot="public">gr::Spread::cpfsk_demod</innerclass>
+    <innerclass refid="classgr_1_1Spread_1_1cpfsk__demod__impl" prot="public">gr::Spread::cpfsk_demod_impl</innerclass>
+    <innerclass refid="classgr_1_1Spread_1_1cpfsk__mod" prot="public">gr::Spread::cpfsk_mod</innerclass>
+    <innerclass refid="classgr_1_1Spread_1_1cpfsk__mod__impl" prot="public">gr::Spread::cpfsk_mod_impl</innerclass>
+    <innerclass refid="classgr_1_1Spread_1_1deframer" prot="public">gr::Spread::deframer</innerclass>
+    <innerclass refid="classgr_1_1Spread_1_1deframer__impl" prot="public">gr::Spread::deframer_impl</innerclass>
+    <innerclass refid="classgr_1_1Spread_1_1ds__despreader" prot="public">gr::Spread::ds_despreader</innerclass>
+    <innerclass refid="classgr_1_1Spread_1_1ds__despreader__impl" prot="public">gr::Spread::ds_despreader_impl</innerclass>
+    <innerclass refid="classgr_1_1Spread_1_1ds__spreader" prot="public">gr::Spread::ds_spreader</innerclass>
+    <innerclass refid="classgr_1_1Spread_1_1ds__spreader__impl" prot="public">gr::Spread::ds_spreader_impl</innerclass>
+    <innerclass refid="classgr_1_1Spread_1_1framer" prot="public">gr::Spread::framer</innerclass>
+    <innerclass refid="classgr_1_1Spread_1_1framer__impl" prot="public">gr::Spread::framer_impl</innerclass>
+    <innerclass refid="classgr_1_1Spread_1_1msg__source" prot="public">gr::Spread::msg_source</innerclass>
+    <innerclass refid="classgr_1_1Spread_1_1msg__source__impl" prot="public">gr::Spread::msg_source_impl</innerclass>
+    <innerclass refid="classgr_1_1Spread_1_1preamble__bb" prot="public">gr::Spread::preamble_bb</innerclass>
+    <innerclass refid="classgr_1_1Spread_1_1preamble__cc" prot="public">gr::Spread::preamble_cc</innerclass>
+    <innerclass refid="classgr_1_1Spread_1_1rx__sync" prot="public">gr::Spread::rx_sync</innerclass>
+    <innerclass refid="classgr_1_1Spread_1_1rx__sync__impl" prot="public">gr::Spread::rx_sync_impl</innerclass>
+    <innerclass refid="classgr_1_1Spread_1_1rx__synthesizer" prot="public">gr::Spread::rx_synthesizer</innerclass>
+    <innerclass refid="classgr_1_1Spread_1_1rx__synthesizer__impl" prot="public">gr::Spread::rx_synthesizer_impl</innerclass>
+    <innerclass refid="classgr_1_1Spread_1_1sync" prot="public">gr::Spread::sync</innerclass>
+    <innerclass refid="classgr_1_1Spread_1_1sync__impl" prot="public">gr::Spread::sync_impl</innerclass>
+    <innerclass refid="classgr_1_1Spread_1_1synthesizer" prot="public">gr::Spread::synthesizer</innerclass>
+    <innerclass refid="classgr_1_1Spread_1_1synthesizer__impl" prot="public">gr::Spread::synthesizer_impl</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacegr_1_1Spread_1aacd0c7546df220d4339edb558d6be2cf" prot="public" static="no" mutable="no">
+        <type><ref refid="classgr_1_1Spread_1_1framer__impl" kindref="compound">gr::Spread::framer_impl</ref></type>
+        <definition>gr::Spread::framer_impl gr::Spread::__attribute__</definition>
+        <argsstring></argsstring>
+        <name>__attribute__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/framer_impl.h" line="43" column="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/alex/pybombs/bladeRF/src/gr-spread/build/include/Spread/preamble_bb.h" line="29" column="18"/>
+  </compounddef>
+</doxygen>

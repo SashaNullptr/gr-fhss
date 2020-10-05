@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_d9a5d0c8db7f236bf56199053e80496d" kind="dir">
+    <compoundname>Spread</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="cpfsk__demod_8h">cpfsk_demod.h</innerfile>
+    <innerfile refid="cpfsk__mod_8h">cpfsk_mod.h</innerfile>
+    <innerfile refid="deframer_8h">deframer.h</innerfile>
+    <innerfile refid="ds__despreader_8h">ds_despreader.h</innerfile>
+    <innerfile refid="ds__spreader_8h">ds_spreader.h</innerfile>
+    <innerfile refid="framer_8h">framer.h</innerfile>
+    <innerfile refid="msg__source_8h">msg_source.h</innerfile>
+    <innerfile refid="rx__sync_8h">rx_sync.h</innerfile>
+    <innerfile refid="rx__synthesizer_8h">rx_synthesizer.h</innerfile>
+    <innerfile refid="sync_8h">sync.h</innerfile>
+    <innerfile refid="synthesizer_8h">synthesizer.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/alex/pybombs/bladeRF/src/gr-spread/include/Spread/"/>
+  </compounddef>
+</doxygen>

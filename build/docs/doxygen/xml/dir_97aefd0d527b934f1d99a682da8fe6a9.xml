@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir">
+    <compoundname>lib</compoundname>
+    <innerfile refid="code__generator_8h">code_generator.h</innerfile>
+    <innerfile refid="common_8h">common.h</innerfile>
+    <innerfile refid="cpfsk__demod__impl_8h">cpfsk_demod_impl.h</innerfile>
+    <innerfile refid="cpfsk__mod__impl_8h">cpfsk_mod_impl.h</innerfile>
+    <innerfile refid="deframer__impl_8h">deframer_impl.h</innerfile>
+    <innerfile refid="ds__despreader__impl_8h">ds_despreader_impl.h</innerfile>
+    <innerfile refid="ds__spreader__impl_8h">ds_spreader_impl.h</innerfile>
+    <innerfile refid="format_8h">format.h</innerfile>
+    <innerfile refid="framer__impl_8h">framer_impl.h</innerfile>
+    <innerfile refid="msg__source__impl_8h">msg_source_impl.h</innerfile>
+    <innerfile refid="rx__sync__impl_8h">rx_sync_impl.h</innerfile>
+    <innerfile refid="rx__synthesizer__impl_8h">rx_synthesizer_impl.h</innerfile>
+    <innerfile refid="sync__impl_8h">sync_impl.h</innerfile>
+    <innerfile refid="synthesizer__impl_8h">synthesizer_impl.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1Spread_1_1rx__sync__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::Spread::rx_sync_impl</compoundname>
+    <basecompoundref refid="classgr_1_1Spread_1_1rx__sync" prot="public" virt="non-virtual">gr::Spread::rx_sync</basecompoundref>
+    <includes refid="rx__sync__impl_8h" local="no">rx_sync_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__sync__impl_1ae45c0062850c8eec951bbfb378ba4cdb" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float gr::Spread::rx_sync_impl::_threshold</definition>
+        <argsstring></argsstring>
+        <name>_threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_sync_impl.h" line="36" column="19" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_sync_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__sync__impl_1a260879da1260e37e01a24ce508900d3a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::Spread::rx_sync_impl::d_offset</definition>
+        <argsstring></argsstring>
+        <name>d_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_sync_impl.h" line="38" column="11" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_sync_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__sync__impl_1a345f2b7b7204dd8f37da11e294ed5d9c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::Spread::rx_sync_impl::d_correlator</definition>
+        <argsstring></argsstring>
+        <name>d_correlator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_sync_impl.h" line="39" column="13" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_sync_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__sync__impl_1ab55f481b374016e8deb8f7b8b1125036" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char gr::Spread::rx_sync_impl::sync_bits[13]</definition>
+        <argsstring>[13]</argsstring>
+        <name>sync_bits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_sync_impl.h" line="41" column="12" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_sync_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__sync__impl_1ae1b4a82a7acf83b8b834af2b7a8c4e0f" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char gr::Spread::rx_sync_impl::zero_pad[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>zero_pad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_sync_impl.h" line="41" column="22" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_sync_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__sync__impl_1af31f0643f222c61fd46edd9aae03df97" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char gr::Spread::rx_sync_impl::header_bytes[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>header_bytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_sync_impl.h" line="42" column="12" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_sync_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__sync__impl_1aa6b7e25cd70049c3219174d2cc5bc4ae" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::Spread::rx_sync_impl::frame_found</definition>
+        <argsstring></argsstring>
+        <name>frame_found</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_sync_impl.h" line="44" column="12" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_sync_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__sync__impl_1aeb4446c45177ee4069c6c1c2779d7707" prot="private" static="no" mutable="no">
+        <type><ref refid="structframe__header" kindref="compound">frame_header</ref></type>
+        <definition>frame_header gr::Spread::rx_sync_impl::header</definition>
+        <argsstring></argsstring>
+        <name>header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_sync_impl.h" line="45" column="20" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_sync_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__sync__impl_1a2fea0bf8665471bdccf286e93769da49" prot="private" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* gr::Spread::rx_sync_impl::frame_data</definition>
+        <argsstring></argsstring>
+        <name>frame_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_sync_impl.h" line="47" column="12" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_sync_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__sync__impl_1a5e9a20886d0cf7af2d4810e590a8cfce" prot="private" static="no" mutable="no">
+        <type>filter::kernel::fir_filter_fff *</type>
+        <definition>filter::kernel::fir_filter_fff* gr::Spread::rx_sync_impl::filter_object</definition>
+        <argsstring></argsstring>
+        <name>filter_object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_sync_impl.h" line="49" column="39" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_sync_impl.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__sync__impl_1a11dd8effc0ec1e1e44591470268f6aea" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::Spread::rx_sync_impl::buffer</definition>
+        <argsstring></argsstring>
+        <name>buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_sync_impl.h" line="51" column="19" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_sync_impl.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1Spread_1_1rx__sync__impl_1a2c8d9d5ffb0ede3c03731c3935a64eca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::Spread::rx_sync_impl::rx_sync_impl</definition>
+        <argsstring>(const float threshold)</argsstring>
+        <name>rx_sync_impl</name>
+        <param>
+          <type>const float</type>
+          <declname>threshold</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_sync_impl.h" line="54" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1Spread_1_1rx__sync__impl_1a1b97ded3b1d621ed4b798bfe6b705228" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::Spread::rx_sync_impl::~rx_sync_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~rx_sync_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_sync_impl.h" line="55" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1Spread_1_1rx__sync__impl_1a2c506edb59b1ba93effd9475141fc281" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::Spread::rx_sync_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_sync_impl.h" line="57" column="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::Spread::rx_sync_impl</label>
+        <link refid="classgr_1_1Spread_1_1rx__sync__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::Spread::rx_sync</label>
+        <link refid="classgr_1_1Spread_1_1rx__sync"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::Spread::rx_sync_impl</label>
+        <link refid="classgr_1_1Spread_1_1rx__sync__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::Spread::rx_sync</label>
+        <link refid="classgr_1_1Spread_1_1rx__sync"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_sync_impl.h" line="34" column="1" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_sync_impl.h" bodystart="33" bodyend="60"/>
+    <listofallmembers>
+      <member refid="classgr_1_1Spread_1_1rx__sync__impl_1ae45c0062850c8eec951bbfb378ba4cdb" prot="private" virt="non-virtual"><scope>gr::Spread::rx_sync_impl</scope><name>_threshold</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__sync__impl_1a11dd8effc0ec1e1e44591470268f6aea" prot="private" virt="non-virtual"><scope>gr::Spread::rx_sync_impl</scope><name>buffer</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__sync__impl_1a345f2b7b7204dd8f37da11e294ed5d9c" prot="private" virt="non-virtual"><scope>gr::Spread::rx_sync_impl</scope><name>d_correlator</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__sync__impl_1a260879da1260e37e01a24ce508900d3a" prot="private" virt="non-virtual"><scope>gr::Spread::rx_sync_impl</scope><name>d_offset</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__sync__impl_1a5e9a20886d0cf7af2d4810e590a8cfce" prot="private" virt="non-virtual"><scope>gr::Spread::rx_sync_impl</scope><name>filter_object</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__sync__impl_1a2fea0bf8665471bdccf286e93769da49" prot="private" virt="non-virtual"><scope>gr::Spread::rx_sync_impl</scope><name>frame_data</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__sync__impl_1aa6b7e25cd70049c3219174d2cc5bc4ae" prot="private" virt="non-virtual"><scope>gr::Spread::rx_sync_impl</scope><name>frame_found</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__sync__impl_1aeb4446c45177ee4069c6c1c2779d7707" prot="private" virt="non-virtual"><scope>gr::Spread::rx_sync_impl</scope><name>header</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__sync__impl_1af31f0643f222c61fd46edd9aae03df97" prot="private" virt="non-virtual"><scope>gr::Spread::rx_sync_impl</scope><name>header_bytes</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__sync_1ae0f36e08eb896df2bded4f1e453d7896" prot="public" virt="non-virtual"><scope>gr::Spread::rx_sync_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__sync__impl_1a2c8d9d5ffb0ede3c03731c3935a64eca" prot="public" virt="non-virtual"><scope>gr::Spread::rx_sync_impl</scope><name>rx_sync_impl</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__sync_1a1d830e2e8994a1cff574aa1d24b5b3b6" prot="public" virt="non-virtual"><scope>gr::Spread::rx_sync_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__sync__impl_1ab55f481b374016e8deb8f7b8b1125036" prot="private" virt="non-virtual"><scope>gr::Spread::rx_sync_impl</scope><name>sync_bits</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__sync__impl_1a2c506edb59b1ba93effd9475141fc281" prot="public" virt="non-virtual"><scope>gr::Spread::rx_sync_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__sync__impl_1ae1b4a82a7acf83b8b834af2b7a8c4e0f" prot="private" virt="non-virtual"><scope>gr::Spread::rx_sync_impl</scope><name>zero_pad</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__sync__impl_1a1b97ded3b1d621ed4b798bfe6b705228" prot="public" virt="non-virtual"><scope>gr::Spread::rx_sync_impl</scope><name>~rx_sync_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

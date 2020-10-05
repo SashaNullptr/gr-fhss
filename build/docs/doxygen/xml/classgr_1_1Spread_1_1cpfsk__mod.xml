@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1Spread_1_1cpfsk__mod" kind="class" language="C++" prot="public">
+    <compoundname>gr::Spread::cpfsk_mod</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_interpolator</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1Spread_1_1cpfsk__mod__impl" prot="public" virt="non-virtual">gr::Spread::cpfsk_mod_impl</derivedcompoundref>
+    <includes refid="cpfsk__mod_8h" local="no">cpfsk_mod.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1Spread_1_1cpfsk__mod_1ab5b6ef1b2dd6f3b8fa096d0326efbd29" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1Spread_1_1cpfsk__mod" kindref="compound">cpfsk_mod</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;cpfsk_mod&gt; gr::Spread::cpfsk_mod::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/include/Spread/cpfsk_mod.h" line="39" column="33" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/include/Spread/cpfsk_mod.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1Spread_1_1cpfsk__mod_1aef8cb3b411dafed0407d3e88423b3736" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1Spread_1_1cpfsk__mod_1ab5b6ef1b2dd6f3b8fa096d0326efbd29" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::Spread::cpfsk_mod::make</definition>
+        <argsstring>(const int samples_per_symbol)</argsstring>
+        <name>make</name>
+        <param>
+          <type>const int</type>
+          <declname>samples_per_symbol</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1Spread_1_1cpfsk__mod" kindref="compound">Spread::cpfsk_mod</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1Spread_1_1cpfsk__mod" kindref="compound">Spread::cpfsk_mod</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1Spread_1_1cpfsk__mod_1aef8cb3b411dafed0407d3e88423b3736" kindref="member">Spread::cpfsk_mod::make</ref> is the public interface for creating new instances. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/include/Spread/cpfsk_mod.h" line="49" column="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This block modulates incoming bits as a CPFSK signal. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>gr::Spread::cpfsk_mod_impl</label>
+        <link refid="classgr_1_1Spread_1_1cpfsk__mod__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::Spread::cpfsk_mod</label>
+        <link refid="classgr_1_1Spread_1_1cpfsk__mod"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::sync_interpolator</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::Spread::cpfsk_mod</label>
+        <link refid="classgr_1_1Spread_1_1cpfsk__mod"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::sync_interpolator</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/alex/pybombs/bladeRF/src/gr-spread/include/Spread/cpfsk_mod.h" line="37" column="1" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/include/Spread/cpfsk_mod.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1Spread_1_1cpfsk__mod_1aef8cb3b411dafed0407d3e88423b3736" prot="public" virt="non-virtual"><scope>gr::Spread::cpfsk_mod</scope><name>make</name></member>
+      <member refid="classgr_1_1Spread_1_1cpfsk__mod_1ab5b6ef1b2dd6f3b8fa096d0326efbd29" prot="public" virt="non-virtual"><scope>gr::Spread::cpfsk_mod</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

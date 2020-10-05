@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="format_8h" kind="file" language="C++">
+    <compoundname>format.h</compoundname>
+    <includedby refid="framer__impl_8h" local="yes">framer_impl.h</includedby>
+    <includedby refid="rx__sync__impl_8h" local="yes">rx_sync_impl.h</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>format.h</label>
+        <link refid="format_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>framer_impl.h</label>
+        <link refid="framer__impl_8h"/>
+      </node>
+      <node id="3">
+        <label>rx_sync_impl.h</label>
+        <link refid="rx__sync__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structframe__header" prot="public">frame_header</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="format_8h_1a1d127017fb298b889f4ba24752d08b8e" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/format.h" line="2" column="13" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/format.h" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="format_8h_1a45d1eff7a4ca4132cc628d49ec67890a" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t dst</definition>
+        <argsstring></argsstring>
+        <name>dst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/format.h" line="3" column="13" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/format.h" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="format_8h_1af5eca485cd2b34522478907d4c8f5bc6" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t src</definition>
+        <argsstring></argsstring>
+        <name>src</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/format.h" line="4" column="13" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/format.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="format_8h_1a5723e60ffd628510c699eddbce90be23" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t len</definition>
+        <argsstring></argsstring>
+        <name>len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/format.h" line="5" column="13" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/format.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="format_8h_1a1b7900454baae71fabc75eac30692074" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>struct <ref refid="structframe__header" kindref="compound">frame_header</ref></type>
+        <definition>struct frame_header __attribute__</definition>
+        <argsstring>((packed))</argsstring>
+        <name>__attribute__</name>
+        <param>
+          <type>(packed)</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/format.h" line="1" column="0" declfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/format.h" declline="1" declcolumn="0"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/format.h"/>
+  </compounddef>
+</doxygen>

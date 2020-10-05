@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classLFSR" kind="class" language="C++" prot="public">
+    <compoundname>LFSR</compoundname>
+    <includes refid="code__generator_8h" local="no">code_generator.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classLFSR_1a3e75401eee3833ee90f5e5c8c183594d" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int LFSR::nreg</definition>
+        <argsstring></argsstring>
+        <name>nreg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/code_generator.h" line="31" column="13" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/code_generator.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classLFSR_1a089f2cd6fe2d7e4fd9ae089b3b9cd783" prot="private" static="no" mutable="no">
+        <type><ref refid="common_8h_1aad4dead84a9a2396b289c2751d5a470b" kindref="member">polynomial</ref></type>
+        <definition>polynomial LFSR::_init</definition>
+        <argsstring></argsstring>
+        <name>_init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/code_generator.h" line="43" column="14" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/code_generator.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classLFSR_1a39f37721b4df5605f955d10896719aab" prot="private" static="no" mutable="no">
+        <type><ref refid="common_8h_1aad4dead84a9a2396b289c2751d5a470b" kindref="member">polynomial</ref></type>
+        <definition>polynomial LFSR::generator</definition>
+        <argsstring></argsstring>
+        <name>generator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/code_generator.h" line="44" column="14" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/code_generator.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classLFSR_1a4ca7e7cce60298620b7595dd242a31b3" prot="private" static="no" mutable="no">
+        <type><ref refid="common_8h_1aad4dead84a9a2396b289c2751d5a470b" kindref="member">polynomial</ref></type>
+        <definition>polynomial LFSR::state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/code_generator.h" line="45" column="14" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/code_generator.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classLFSR_1a0549fdd1b3099943ca56af23a27808b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>LFSR::LFSR</definition>
+        <argsstring>(polynomial gen, polynomial init)</argsstring>
+        <name>LFSR</name>
+        <param>
+          <type><ref refid="common_8h_1aad4dead84a9a2396b289c2751d5a470b" kindref="member">polynomial</ref></type>
+          <declname>gen</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1aad4dead84a9a2396b289c2751d5a470b" kindref="member">polynomial</ref></type>
+          <declname>init</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/code_generator.h" line="33" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classLFSR_1af588879ee85f70a06e73b328e6876c4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LFSR::update</definition>
+        <argsstring>()</argsstring>
+        <name>update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/code_generator.h" line="35" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classLFSR_1a75f39a468454c50e1eb48cecfd2905bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LFSR::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/code_generator.h" line="36" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classLFSR_1a9ecfda1a6928e6f729c0649138d52a65" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="common_8h_1a789d352559efaa396a258805d44f4289" kindref="member">bit</ref></type>
+        <definition>bit LFSR::getRegister</definition>
+        <argsstring>(int pos) const</argsstring>
+        <name>getRegister</name>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/code_generator.h" line="38" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classLFSR_1aba5f1c91fd7940dc3ac2ddb2db322628" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="common_8h_1aad4dead84a9a2396b289c2751d5a470b" kindref="member">polynomial</ref> *</type>
+        <definition>polynomial* LFSR::getRegisters</definition>
+        <argsstring>() const</argsstring>
+        <name>getRegisters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/code_generator.h" line="39" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classLFSR_1ab5d348241146bedf8499140c49d38ee4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int LFSR::getFrequency</definition>
+        <argsstring>() const</argsstring>
+        <name>getFrequency</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/code_generator.h" line="40" column="7"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/code_generator.h" line="29" column="1" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/code_generator.h" bodystart="28" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classLFSR_1a089f2cd6fe2d7e4fd9ae089b3b9cd783" prot="private" virt="non-virtual"><scope>LFSR</scope><name>_init</name></member>
+      <member refid="classLFSR_1a39f37721b4df5605f955d10896719aab" prot="private" virt="non-virtual"><scope>LFSR</scope><name>generator</name></member>
+      <member refid="classLFSR_1ab5d348241146bedf8499140c49d38ee4" prot="public" virt="non-virtual"><scope>LFSR</scope><name>getFrequency</name></member>
+      <member refid="classLFSR_1a9ecfda1a6928e6f729c0649138d52a65" prot="public" virt="non-virtual"><scope>LFSR</scope><name>getRegister</name></member>
+      <member refid="classLFSR_1aba5f1c91fd7940dc3ac2ddb2db322628" prot="public" virt="non-virtual"><scope>LFSR</scope><name>getRegisters</name></member>
+      <member refid="classLFSR_1a0549fdd1b3099943ca56af23a27808b0" prot="public" virt="non-virtual"><scope>LFSR</scope><name>LFSR</name></member>
+      <member refid="classLFSR_1a3e75401eee3833ee90f5e5c8c183594d" prot="public" virt="non-virtual"><scope>LFSR</scope><name>nreg</name></member>
+      <member refid="classLFSR_1a75f39a468454c50e1eb48cecfd2905bc" prot="public" virt="non-virtual"><scope>LFSR</scope><name>reset</name></member>
+      <member refid="classLFSR_1a4ca7e7cce60298620b7595dd242a31b3" prot="private" virt="non-virtual"><scope>LFSR</scope><name>state</name></member>
+      <member refid="classLFSR_1af588879ee85f70a06e73b328e6876c4b" prot="public" virt="non-virtual"><scope>LFSR</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

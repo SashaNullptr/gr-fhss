@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1Spread_1_1msg__source__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::Spread::msg_source_impl</compoundname>
+    <basecompoundref refid="classgr_1_1Spread_1_1msg__source" prot="public" virt="non-virtual">gr::Spread::msg_source</basecompoundref>
+    <includes refid="msg__source__impl_8h" local="no">msg_source_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1msg__source__impl_1a6355c808006b7f9bd45bea2801355663" prot="private" static="no" mutable="no">
+        <type>boost::shared_ptr&lt; boost::thread &gt;</type>
+        <definition>boost::shared_ptr&lt;boost::thread&gt; gr::Spread::msg_source_impl::_thread</definition>
+        <argsstring></argsstring>
+        <name>_thread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/msg_source_impl.h" line="32" column="25" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/msg_source_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1msg__source__impl_1a2e82a7e4991afb40a50ada5e5868ecf2" prot="private" static="no" mutable="no">
+        <type>const size_t</type>
+        <definition>const size_t gr::Spread::msg_source_impl::_len</definition>
+        <argsstring></argsstring>
+        <name>_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/msg_source_impl.h" line="33" column="20" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/msg_source_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1msg__source__impl_1a5bcbdf94b3d6bd565ce8bc41a3fb711c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::Spread::msg_source_impl::limit</definition>
+        <argsstring></argsstring>
+        <name>limit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/msg_source_impl.h" line="34" column="11" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/msg_source_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1msg__source__impl_1af2e0539b605a3260522ae6d7f3e77133" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::Spread::msg_source_impl::published</definition>
+        <argsstring></argsstring>
+        <name>published</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/msg_source_impl.h" line="34" column="17" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/msg_source_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1msg__source__impl_1a01bed3b9502f7e61f430837d5a48a807" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::Spread::msg_source_impl::done</definition>
+        <argsstring></argsstring>
+        <name>done</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/msg_source_impl.h" line="36" column="12" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/msg_source_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1Spread_1_1msg__source__impl_1ad5959278a470cd33af498149647ff876" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::Spread::msg_source_impl::msg_source_impl</definition>
+        <argsstring>(const int num_messages, const size_t len)</argsstring>
+        <name>msg_source_impl</name>
+        <param>
+          <type>const int</type>
+          <declname>num_messages</declname>
+        </param>
+        <param>
+          <type>const size_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/msg_source_impl.h" line="39" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1Spread_1_1msg__source__impl_1a15ee23951b8dbc34e1fab3acbd5993c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::Spread::msg_source_impl::~msg_source_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~msg_source_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/msg_source_impl.h" line="40" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1Spread_1_1msg__source__impl_1a10b8dcc55af6c3a1ea462a3634937e30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::Spread::msg_source_impl::work</definition>
+        <argsstring>()</argsstring>
+        <name>work</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/msg_source_impl.h" line="42" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1Spread_1_1msg__source__impl_1a810b77c60624a1b0b14d1983fe629ca6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::Spread::msg_source_impl::gen_string</definition>
+        <argsstring>(const size_t len)</argsstring>
+        <name>gen_string</name>
+        <param>
+          <type>const size_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/msg_source_impl.h" line="44" column="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::Spread::msg_source</label>
+        <link refid="classgr_1_1Spread_1_1msg__source"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::Spread::msg_source_impl</label>
+        <link refid="classgr_1_1Spread_1_1msg__source__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::Spread::msg_source</label>
+        <link refid="classgr_1_1Spread_1_1msg__source"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::Spread::msg_source_impl</label>
+        <link refid="classgr_1_1Spread_1_1msg__source__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/msg_source_impl.h" line="30" column="1" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/msg_source_impl.h" bodystart="29" bodyend="45"/>
+    <listofallmembers>
+      <member refid="classgr_1_1Spread_1_1msg__source__impl_1a2e82a7e4991afb40a50ada5e5868ecf2" prot="private" virt="non-virtual"><scope>gr::Spread::msg_source_impl</scope><name>_len</name></member>
+      <member refid="classgr_1_1Spread_1_1msg__source__impl_1a6355c808006b7f9bd45bea2801355663" prot="private" virt="non-virtual"><scope>gr::Spread::msg_source_impl</scope><name>_thread</name></member>
+      <member refid="classgr_1_1Spread_1_1msg__source__impl_1a01bed3b9502f7e61f430837d5a48a807" prot="private" virt="non-virtual"><scope>gr::Spread::msg_source_impl</scope><name>done</name></member>
+      <member refid="classgr_1_1Spread_1_1msg__source__impl_1a810b77c60624a1b0b14d1983fe629ca6" prot="public" virt="non-virtual"><scope>gr::Spread::msg_source_impl</scope><name>gen_string</name></member>
+      <member refid="classgr_1_1Spread_1_1msg__source__impl_1a5bcbdf94b3d6bd565ce8bc41a3fb711c" prot="private" virt="non-virtual"><scope>gr::Spread::msg_source_impl</scope><name>limit</name></member>
+      <member refid="classgr_1_1Spread_1_1msg__source_1ad2b43da629c47eb7730ca31821ac2527" prot="public" virt="non-virtual"><scope>gr::Spread::msg_source_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1Spread_1_1msg__source__impl_1ad5959278a470cd33af498149647ff876" prot="public" virt="non-virtual"><scope>gr::Spread::msg_source_impl</scope><name>msg_source_impl</name></member>
+      <member refid="classgr_1_1Spread_1_1msg__source__impl_1af2e0539b605a3260522ae6d7f3e77133" prot="private" virt="non-virtual"><scope>gr::Spread::msg_source_impl</scope><name>published</name></member>
+      <member refid="classgr_1_1Spread_1_1msg__source_1abf9a49e9fa9c52d168f213c7f9173b84" prot="public" virt="non-virtual"><scope>gr::Spread::msg_source_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1Spread_1_1msg__source__impl_1a10b8dcc55af6c3a1ea462a3634937e30" prot="public" virt="non-virtual"><scope>gr::Spread::msg_source_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1Spread_1_1msg__source__impl_1a15ee23951b8dbc34e1fab3acbd5993c5" prot="public" virt="non-virtual"><scope>gr::Spread::msg_source_impl</scope><name>~msg_source_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

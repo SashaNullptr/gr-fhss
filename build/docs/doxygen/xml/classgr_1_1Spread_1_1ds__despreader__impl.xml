@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1Spread_1_1ds__despreader__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::Spread::ds_despreader_impl</compoundname>
+    <basecompoundref refid="classgr_1_1Spread_1_1ds__despreader" prot="public" virt="non-virtual">gr::Spread::ds_despreader</basecompoundref>
+    <includes refid="ds__despreader__impl_8h" local="no">ds_despreader_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1ds__despreader__impl_1a9f199289d1d9e4fd270819d5aaf17bdc" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::Spread::ds_despreader_impl::_size</definition>
+        <argsstring></argsstring>
+        <name>_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_despreader_impl.h" line="36" column="17" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_despreader_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1ds__despreader__impl_1af41293a781c6aa398d8690551ed18e6b" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::Spread::ds_despreader_impl::_samp_chip</definition>
+        <argsstring></argsstring>
+        <name>_samp_chip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_despreader_impl.h" line="37" column="17" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_despreader_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1ds__despreader__impl_1a000e998712efad2cb3bb794dc402dc72" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float gr::Spread::ds_despreader_impl::_threshold</definition>
+        <argsstring></argsstring>
+        <name>_threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_despreader_impl.h" line="39" column="19" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_despreader_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1ds__despreader__impl_1a20db90f030264567f98357e061b62554" prot="private" static="no" mutable="no">
+        <type><ref refid="classLFSR" kindref="compound">LFSR</ref> *</type>
+        <definition>LFSR* gr::Spread::ds_despreader_impl::code</definition>
+        <argsstring></argsstring>
+        <name>code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_despreader_impl.h" line="41" column="13" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_despreader_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1ds__despreader__impl_1ad0ed481b7ed95427cf0f408861b5eb17" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::Spread::ds_despreader_impl::chip_sequence</definition>
+        <argsstring></argsstring>
+        <name>chip_sequence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_despreader_impl.h" line="42" column="19" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_despreader_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1ds__despreader__impl_1a40db814ecf2202c67a99be7bee484d04" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::Spread::ds_despreader_impl::buffer</definition>
+        <argsstring></argsstring>
+        <name>buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_despreader_impl.h" line="43" column="19" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_despreader_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1ds__despreader__impl_1a4189fa7894bd37c81c222dbe8161d8e0" prot="private" static="no" mutable="no">
+        <type>filter::kernel::fir_filter_fff *</type>
+        <definition>filter::kernel::fir_filter_fff* gr::Spread::ds_despreader_impl::acquire_filter</definition>
+        <argsstring></argsstring>
+        <name>acquire_filter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_despreader_impl.h" line="45" column="39" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_despreader_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1ds__despreader__impl_1aa62bbe5d309b651a654314512bc1ef4d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::Spread::ds_despreader_impl::d_clock</definition>
+        <argsstring></argsstring>
+        <name>d_clock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_despreader_impl.h" line="47" column="11" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_despreader_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1ds__despreader__impl_1acb38ebcc18aa78c28e8081b545b3922b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::Spread::ds_despreader_impl::d_offset</definition>
+        <argsstring></argsstring>
+        <name>d_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_despreader_impl.h" line="47" column="19" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_despreader_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1ds__despreader__impl_1aa2c3c0debd2f58c741616f87c6199e22" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::Spread::ds_despreader_impl::d_correlator</definition>
+        <argsstring></argsstring>
+        <name>d_correlator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_despreader_impl.h" line="49" column="13" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_despreader_impl.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1Spread_1_1ds__despreader__impl_1a02947a8756bb4f88d63120d735de8fe3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::Spread::ds_despreader_impl::ds_despreader_impl</definition>
+        <argsstring>(const int samples_per_chip, const int samples_between, const float threshold, const polynomial gen, const polynomial init)</argsstring>
+        <name>ds_despreader_impl</name>
+        <param>
+          <type>const int</type>
+          <declname>samples_per_chip</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>samples_between</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>threshold</declname>
+        </param>
+        <param>
+          <type>const <ref refid="common_8h_1aad4dead84a9a2396b289c2751d5a470b" kindref="member">polynomial</ref></type>
+          <declname>gen</declname>
+        </param>
+        <param>
+          <type>const <ref refid="common_8h_1aad4dead84a9a2396b289c2751d5a470b" kindref="member">polynomial</ref></type>
+          <declname>init</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_despreader_impl.h" line="52" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1Spread_1_1ds__despreader__impl_1a847eafb3dae997cf77d1da1ec09c9cc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::Spread::ds_despreader_impl::~ds_despreader_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~ds_despreader_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_despreader_impl.h" line="58" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1Spread_1_1ds__despreader__impl_1a72a1d19c850cfbc40de509a5e3e0ae7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::Spread::ds_despreader_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_despreader_impl.h" line="60" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1Spread_1_1ds__despreader__impl_1a487fec4b27737b8ef47e00eb4cecfb86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::Spread::ds_despreader_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_despreader_impl.h" line="62" column="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>block</label>
+      </node>
+      <node id="1">
+        <label>gr::Spread::ds_despreader_impl</label>
+        <link refid="classgr_1_1Spread_1_1ds__despreader__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::Spread::ds_despreader</label>
+        <link refid="classgr_1_1Spread_1_1ds__despreader"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>block</label>
+      </node>
+      <node id="1">
+        <label>gr::Spread::ds_despreader_impl</label>
+        <link refid="classgr_1_1Spread_1_1ds__despreader__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::Spread::ds_despreader</label>
+        <link refid="classgr_1_1Spread_1_1ds__despreader"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_despreader_impl.h" line="34" column="1" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/ds_despreader_impl.h" bodystart="33" bodyend="66"/>
+    <listofallmembers>
+      <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1af41293a781c6aa398d8690551ed18e6b" prot="private" virt="non-virtual"><scope>gr::Spread::ds_despreader_impl</scope><name>_samp_chip</name></member>
+      <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1a9f199289d1d9e4fd270819d5aaf17bdc" prot="private" virt="non-virtual"><scope>gr::Spread::ds_despreader_impl</scope><name>_size</name></member>
+      <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1a000e998712efad2cb3bb794dc402dc72" prot="private" virt="non-virtual"><scope>gr::Spread::ds_despreader_impl</scope><name>_threshold</name></member>
+      <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1a4189fa7894bd37c81c222dbe8161d8e0" prot="private" virt="non-virtual"><scope>gr::Spread::ds_despreader_impl</scope><name>acquire_filter</name></member>
+      <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1a40db814ecf2202c67a99be7bee484d04" prot="private" virt="non-virtual"><scope>gr::Spread::ds_despreader_impl</scope><name>buffer</name></member>
+      <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1ad0ed481b7ed95427cf0f408861b5eb17" prot="private" virt="non-virtual"><scope>gr::Spread::ds_despreader_impl</scope><name>chip_sequence</name></member>
+      <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1a20db90f030264567f98357e061b62554" prot="private" virt="non-virtual"><scope>gr::Spread::ds_despreader_impl</scope><name>code</name></member>
+      <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1aa62bbe5d309b651a654314512bc1ef4d" prot="private" virt="non-virtual"><scope>gr::Spread::ds_despreader_impl</scope><name>d_clock</name></member>
+      <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1aa2c3c0debd2f58c741616f87c6199e22" prot="private" virt="non-virtual"><scope>gr::Spread::ds_despreader_impl</scope><name>d_correlator</name></member>
+      <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1acb38ebcc18aa78c28e8081b545b3922b" prot="private" virt="non-virtual"><scope>gr::Spread::ds_despreader_impl</scope><name>d_offset</name></member>
+      <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1a02947a8756bb4f88d63120d735de8fe3" prot="public" virt="non-virtual"><scope>gr::Spread::ds_despreader_impl</scope><name>ds_despreader_impl</name></member>
+      <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1a72a1d19c850cfbc40de509a5e3e0ae7c" prot="public" virt="non-virtual"><scope>gr::Spread::ds_despreader_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1a487fec4b27737b8ef47e00eb4cecfb86" prot="public" virt="non-virtual"><scope>gr::Spread::ds_despreader_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1Spread_1_1ds__despreader_1a1479299d444cf21310f853dc3d7792ae" prot="public" virt="non-virtual"><scope>gr::Spread::ds_despreader_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1Spread_1_1ds__despreader_1aac74e10cb83ec2d56559df132cac1e1f" prot="public" virt="non-virtual"><scope>gr::Spread::ds_despreader_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1a847eafb3dae997cf77d1da1ec09c9cc2" prot="public" virt="non-virtual"><scope>gr::Spread::ds_despreader_impl</scope><name>~ds_despreader_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

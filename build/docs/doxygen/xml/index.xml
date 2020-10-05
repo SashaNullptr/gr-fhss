@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.17">
+  <compound refid="classgr_1_1Spread_1_1cpfsk__demod" kind="class"><name>gr::Spread::cpfsk_demod</name>
+    <member refid="classgr_1_1Spread_1_1cpfsk__demod_1a22da781e97236778f2cf2ef05b38dab7" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1Spread_1_1cpfsk__demod_1a2d6d207f418d69b3e651b3025e26def8" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1Spread_1_1cpfsk__demod__impl" kind="class"><name>gr::Spread::cpfsk_demod_impl</name>
+    <member refid="classgr_1_1Spread_1_1cpfsk__demod__impl_1ad8d569639418421445e965a7fc4814ae" kind="variable"><name>samp_sym</name></member>
+    <member refid="classgr_1_1Spread_1_1cpfsk__demod__impl_1a2ce575b5a9cfa608b482cbb96abff802" kind="variable"><name>d_offset</name></member>
+    <member refid="classgr_1_1Spread_1_1cpfsk__demod__impl_1a850cf7021d3c3439b4316f8e8f288b04" kind="variable"><name>sum</name></member>
+    <member refid="classgr_1_1Spread_1_1cpfsk__demod__impl_1a3188a6b37d40fdfb2835350e05047c5f" kind="function"><name>cpfsk_demod_impl</name></member>
+    <member refid="classgr_1_1Spread_1_1cpfsk__demod__impl_1af6ee5559f5c6d4a0c0caf12286c22f3c" kind="function"><name>~cpfsk_demod_impl</name></member>
+    <member refid="classgr_1_1Spread_1_1cpfsk__demod__impl_1a966eeb3c296fe1f0700d66d9734c619d" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1Spread_1_1cpfsk__mod" kind="class"><name>gr::Spread::cpfsk_mod</name>
+    <member refid="classgr_1_1Spread_1_1cpfsk__mod_1ab5b6ef1b2dd6f3b8fa096d0326efbd29" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1Spread_1_1cpfsk__mod_1aef8cb3b411dafed0407d3e88423b3736" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1Spread_1_1cpfsk__mod__impl" kind="class"><name>gr::Spread::cpfsk_mod_impl</name>
+    <member refid="classgr_1_1Spread_1_1cpfsk__mod__impl_1ae8bd2d8781f542d5d144f48f3418baf5" kind="variable"><name>samp_sym</name></member>
+    <member refid="classgr_1_1Spread_1_1cpfsk__mod__impl_1a9212762c1d85e120d33a84d56a3b741d" kind="variable"><name>d_offset</name></member>
+    <member refid="classgr_1_1Spread_1_1cpfsk__mod__impl_1ac8e28b86d09c348e21225b5f66407e74" kind="variable"><name>phase</name></member>
+    <member refid="classgr_1_1Spread_1_1cpfsk__mod__impl_1abed896a311ece919fa779a70d0c84009" kind="function"><name>cpfsk_mod_impl</name></member>
+    <member refid="classgr_1_1Spread_1_1cpfsk__mod__impl_1a44c7917d48e247e5c847bd286caef61e" kind="function"><name>~cpfsk_mod_impl</name></member>
+    <member refid="classgr_1_1Spread_1_1cpfsk__mod__impl_1a6467eea46980ed2f3428fbf62df2daa1" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1Spread_1_1deframer" kind="class"><name>gr::Spread::deframer</name>
+    <member refid="classgr_1_1Spread_1_1deframer_1aae55d78c5a12ff76ed3041f4dd92dee1" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1Spread_1_1deframer_1ac93915e890f1902df9c29cf2d5a73318" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1Spread_1_1deframer_1ad8e57918c998ea943d5add3a9dd93541" kind="function"><name>passed_checks</name></member>
+  </compound>
+  <compound refid="classgr_1_1Spread_1_1deframer__impl" kind="class"><name>gr::Spread::deframer_impl</name>
+    <member refid="classgr_1_1Spread_1_1deframer__impl_1a5515e8bc3e18671390a9dc81a0ce008b" kind="variable"><name>frame_data</name></member>
+    <member refid="classgr_1_1Spread_1_1deframer__impl_1aa90e63960c1931d46c0cb1b685f3b4e2" kind="variable"><name>frame_len</name></member>
+    <member refid="classgr_1_1Spread_1_1deframer__impl_1af4f861fa0aa345cac4e938ae6a2e09ad" kind="variable"><name>received</name></member>
+    <member refid="classgr_1_1Spread_1_1deframer__impl_1a9f3f9002fc3df4fd39d9cddbdbb8e0d1" kind="variable"><name>passed</name></member>
+    <member refid="classgr_1_1Spread_1_1deframer__impl_1a85a37df3efb247692378ed82cb8dbcbc" kind="function"><name>deframer_impl</name></member>
+    <member refid="classgr_1_1Spread_1_1deframer__impl_1a202a7740e94d3ace5694cb2c7510acc4" kind="function"><name>pmt_in</name></member>
+    <member refid="classgr_1_1Spread_1_1deframer__impl_1aa38fb73155400f863594e73bae940ba3" kind="function"><name>print</name></member>
+    <member refid="classgr_1_1Spread_1_1deframer__impl_1a38a94d2d0176487132d41f46d94d7833" kind="function"><name>passed_checks</name></member>
+  </compound>
+  <compound refid="classgr_1_1Spread_1_1ds__despreader" kind="class"><name>gr::Spread::ds_despreader</name>
+    <member refid="classgr_1_1Spread_1_1ds__despreader_1aac74e10cb83ec2d56559df132cac1e1f" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1Spread_1_1ds__despreader_1a1479299d444cf21310f853dc3d7792ae" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1Spread_1_1ds__despreader__impl" kind="class"><name>gr::Spread::ds_despreader_impl</name>
+    <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1a9f199289d1d9e4fd270819d5aaf17bdc" kind="variable"><name>_size</name></member>
+    <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1af41293a781c6aa398d8690551ed18e6b" kind="variable"><name>_samp_chip</name></member>
+    <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1a000e998712efad2cb3bb794dc402dc72" kind="variable"><name>_threshold</name></member>
+    <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1a20db90f030264567f98357e061b62554" kind="variable"><name>code</name></member>
+    <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1ad0ed481b7ed95427cf0f408861b5eb17" kind="variable"><name>chip_sequence</name></member>
+    <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1a40db814ecf2202c67a99be7bee484d04" kind="variable"><name>buffer</name></member>
+    <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1a4189fa7894bd37c81c222dbe8161d8e0" kind="variable"><name>acquire_filter</name></member>
+    <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1aa62bbe5d309b651a654314512bc1ef4d" kind="variable"><name>d_clock</name></member>
+    <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1acb38ebcc18aa78c28e8081b545b3922b" kind="variable"><name>d_offset</name></member>
+    <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1aa2c3c0debd2f58c741616f87c6199e22" kind="variable"><name>d_correlator</name></member>
+    <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1a02947a8756bb4f88d63120d735de8fe3" kind="function"><name>ds_despreader_impl</name></member>
+    <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1a847eafb3dae997cf77d1da1ec09c9cc2" kind="function"><name>~ds_despreader_impl</name></member>
+    <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1a72a1d19c850cfbc40de509a5e3e0ae7c" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1Spread_1_1ds__despreader__impl_1a487fec4b27737b8ef47e00eb4cecfb86" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="classgr_1_1Spread_1_1ds__spreader" kind="class"><name>gr::Spread::ds_spreader</name>
+    <member refid="classgr_1_1Spread_1_1ds__spreader_1af9f6740d9f3b2649afad7ae9e3944c1c" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1Spread_1_1ds__spreader_1aec1a4319c3085f5f9685aa6fe376fbd0" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1Spread_1_1ds__spreader__impl" kind="class"><name>gr::Spread::ds_spreader_impl</name>
+    <member refid="classgr_1_1Spread_1_1ds__spreader__impl_1af393008cb07b3759e350dae87cf83450" kind="variable"><name>_size</name></member>
+    <member refid="classgr_1_1Spread_1_1ds__spreader__impl_1aa390265c85f861d57129cf1eff8d2175" kind="variable"><name>_samp_chip</name></member>
+    <member refid="classgr_1_1Spread_1_1ds__spreader__impl_1a50fc26753f2e0bd35d0285aecc476365" kind="variable"><name>code</name></member>
+    <member refid="classgr_1_1Spread_1_1ds__spreader__impl_1a9970fec81398727a8328ae8124fb605b" kind="variable"><name>d_clock</name></member>
+    <member refid="classgr_1_1Spread_1_1ds__spreader__impl_1a7e302bf14e71a81d55b9323fbf1e7104" kind="variable"><name>d_offset</name></member>
+    <member refid="classgr_1_1Spread_1_1ds__spreader__impl_1ae9707d679fba271c09beaf0238685d60" kind="function"><name>ds_spreader_impl</name></member>
+    <member refid="classgr_1_1Spread_1_1ds__spreader__impl_1ae08de9c0c6c71a7cd0ba9e139fd3d241" kind="function"><name>~ds_spreader_impl</name></member>
+    <member refid="classgr_1_1Spread_1_1ds__spreader__impl_1aa6870b393d7ccbd3b842f208ad5871aa" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="structframe__header" kind="struct"><name>frame_header</name>
+    <member refid="structframe__header_1af74d7772b9cb455cd5ee8a5182a5f5ac" kind="variable"><name>type</name></member>
+    <member refid="structframe__header_1a68bdd32016bfdad709f8e1ae1d13d726" kind="variable"><name>dst</name></member>
+    <member refid="structframe__header_1aa32200ff38e6566d3285ce141b2a5b22" kind="variable"><name>src</name></member>
+    <member refid="structframe__header_1a6ad7f852218fc492d2f614c107a9caa9" kind="variable"><name>len</name></member>
+  </compound>
+  <compound refid="classgr_1_1Spread_1_1framer" kind="class"><name>gr::Spread::framer</name>
+    <member refid="classgr_1_1Spread_1_1framer_1a8b8a356c0fffdc8f800154bce57c2e2b" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1Spread_1_1framer_1a8aa6f6c6319fb00b536cf57bd48da822" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1Spread_1_1framer__impl" kind="class"><name>gr::Spread::framer_impl</name>
+    <member refid="classgr_1_1Spread_1_1framer__impl_1a444c259798732a241843d2a449df4a00" kind="variable"><name>frame_data</name></member>
+    <member refid="classgr_1_1Spread_1_1framer__impl_1a3e1d6f9c66f5706e89d3e76cd1973ab0" kind="variable"><name>frame_len</name></member>
+    <member refid="classgr_1_1Spread_1_1framer__impl_1a1a801c8e09107100ae9ff65586e84292" kind="variable"><name>nseq</name></member>
+    <member refid="classgr_1_1Spread_1_1framer__impl_1a8f749e9a89db226321e2e8affbf17f7f" kind="function"><name>framer_impl</name></member>
+    <member refid="classgr_1_1Spread_1_1framer__impl_1a3b9fc3e97527fc5202313cf07783ff56" kind="function"><name>pmt_in</name></member>
+    <member refid="classgr_1_1Spread_1_1framer__impl_1adace3e4cb28542286445449a9998ece2" kind="function"><name>create_frame</name></member>
+  </compound>
+  <compound refid="classLFSR" kind="class"><name>LFSR</name>
+    <member refid="classLFSR_1a3e75401eee3833ee90f5e5c8c183594d" kind="variable"><name>nreg</name></member>
+    <member refid="classLFSR_1a089f2cd6fe2d7e4fd9ae089b3b9cd783" kind="variable"><name>_init</name></member>
+    <member refid="classLFSR_1a39f37721b4df5605f955d10896719aab" kind="variable"><name>generator</name></member>
+    <member refid="classLFSR_1a4ca7e7cce60298620b7595dd242a31b3" kind="variable"><name>state</name></member>
+    <member refid="classLFSR_1a0549fdd1b3099943ca56af23a27808b0" kind="function"><name>LFSR</name></member>
+    <member refid="classLFSR_1af588879ee85f70a06e73b328e6876c4b" kind="function"><name>update</name></member>
+    <member refid="classLFSR_1a75f39a468454c50e1eb48cecfd2905bc" kind="function"><name>reset</name></member>
+    <member refid="classLFSR_1a9ecfda1a6928e6f729c0649138d52a65" kind="function"><name>getRegister</name></member>
+    <member refid="classLFSR_1aba5f1c91fd7940dc3ac2ddb2db322628" kind="function"><name>getRegisters</name></member>
+    <member refid="classLFSR_1ab5d348241146bedf8499140c49d38ee4" kind="function"><name>getFrequency</name></member>
+  </compound>
+  <compound refid="classgr_1_1Spread_1_1msg__source" kind="class"><name>gr::Spread::msg_source</name>
+    <member refid="classgr_1_1Spread_1_1msg__source_1abf9a49e9fa9c52d168f213c7f9173b84" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1Spread_1_1msg__source_1ad2b43da629c47eb7730ca31821ac2527" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1Spread_1_1msg__source__impl" kind="class"><name>gr::Spread::msg_source_impl</name>
+    <member refid="classgr_1_1Spread_1_1msg__source__impl_1a6355c808006b7f9bd45bea2801355663" kind="variable"><name>_thread</name></member>
+    <member refid="classgr_1_1Spread_1_1msg__source__impl_1a2e82a7e4991afb40a50ada5e5868ecf2" kind="variable"><name>_len</name></member>
+    <member refid="classgr_1_1Spread_1_1msg__source__impl_1a5bcbdf94b3d6bd565ce8bc41a3fb711c" kind="variable"><name>limit</name></member>
+    <member refid="classgr_1_1Spread_1_1msg__source__impl_1af2e0539b605a3260522ae6d7f3e77133" kind="variable"><name>published</name></member>
+    <member refid="classgr_1_1Spread_1_1msg__source__impl_1a01bed3b9502f7e61f430837d5a48a807" kind="variable"><name>done</name></member>
+    <member refid="classgr_1_1Spread_1_1msg__source__impl_1ad5959278a470cd33af498149647ff876" kind="function"><name>msg_source_impl</name></member>
+    <member refid="classgr_1_1Spread_1_1msg__source__impl_1a15ee23951b8dbc34e1fab3acbd5993c5" kind="function"><name>~msg_source_impl</name></member>
+    <member refid="classgr_1_1Spread_1_1msg__source__impl_1a10b8dcc55af6c3a1ea462a3634937e30" kind="function"><name>work</name></member>
+    <member refid="classgr_1_1Spread_1_1msg__source__impl_1a810b77c60624a1b0b14d1983fe629ca6" kind="function"><name>gen_string</name></member>
+  </compound>
+  <compound refid="classgr_1_1Spread_1_1preamble__bb" kind="class"><name>gr::Spread::preamble_bb</name>
+    <member refid="classgr_1_1Spread_1_1preamble__bb_1a660ce4c140936873bd77bd2f5071c2fe" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1Spread_1_1preamble__bb_1aa0187040496e8764fa6d850ca8e0d1ce" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1Spread_1_1preamble__cc" kind="class"><name>gr::Spread::preamble_cc</name>
+    <member refid="classgr_1_1Spread_1_1preamble__cc_1a6e3585b1152109dff2332f4827afd5c3" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1Spread_1_1preamble__cc_1abd3071567f4865b71eea0cf7286c258b" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1Spread_1_1rx__sync" kind="class"><name>gr::Spread::rx_sync</name>
+    <member refid="classgr_1_1Spread_1_1rx__sync_1a1d830e2e8994a1cff574aa1d24b5b3b6" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__sync_1ae0f36e08eb896df2bded4f1e453d7896" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1Spread_1_1rx__sync__impl" kind="class"><name>gr::Spread::rx_sync_impl</name>
+    <member refid="classgr_1_1Spread_1_1rx__sync__impl_1ae45c0062850c8eec951bbfb378ba4cdb" kind="variable"><name>_threshold</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__sync__impl_1a260879da1260e37e01a24ce508900d3a" kind="variable"><name>d_offset</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__sync__impl_1a345f2b7b7204dd8f37da11e294ed5d9c" kind="variable"><name>d_correlator</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__sync__impl_1ab55f481b374016e8deb8f7b8b1125036" kind="variable"><name>sync_bits</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__sync__impl_1ae1b4a82a7acf83b8b834af2b7a8c4e0f" kind="variable"><name>zero_pad</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__sync__impl_1af31f0643f222c61fd46edd9aae03df97" kind="variable"><name>header_bytes</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__sync__impl_1aa6b7e25cd70049c3219174d2cc5bc4ae" kind="variable"><name>frame_found</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__sync__impl_1aeb4446c45177ee4069c6c1c2779d7707" kind="variable"><name>header</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__sync__impl_1a2fea0bf8665471bdccf286e93769da49" kind="variable"><name>frame_data</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__sync__impl_1a5e9a20886d0cf7af2d4810e590a8cfce" kind="variable"><name>filter_object</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__sync__impl_1a11dd8effc0ec1e1e44591470268f6aea" kind="variable"><name>buffer</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__sync__impl_1a2c8d9d5ffb0ede3c03731c3935a64eca" kind="function"><name>rx_sync_impl</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__sync__impl_1a1b97ded3b1d621ed4b798bfe6b705228" kind="function"><name>~rx_sync_impl</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__sync__impl_1a2c506edb59b1ba93effd9475141fc281" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1Spread_1_1rx__synthesizer" kind="class"><name>gr::Spread::rx_synthesizer</name>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer_1a28c26851aadd40dcaaadbd80a9b28dc6" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer_1abc2f5a40a81bfac54a42c754cf952670" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1Spread_1_1rx__synthesizer__impl" kind="class"><name>gr::Spread::rx_synthesizer_impl</name>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a9bbbbd13afb257f8557e313285a2340f" kind="enum"><name>modes</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a9bbbbd13afb257f8557e313285a2340faee31273ea74ca3f1f8dc181c08794227" kind="enumvalue"><name>SYNC</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a9bbbbd13afb257f8557e313285a2340fab4e8a3c917bf1439e0ae8a4970fe4645" kind="enumvalue"><name>TRACK</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a8523484f8a7145403cb0d5d92ab7d2fd" kind="variable"><name>_samp_hop</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1acb7fd16619bb6aa0ba62397abaf38281" kind="variable"><name>_samp_sym</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a1b2e0607a5c06903bae576aeb1039fbe" kind="variable"><name>_size</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a811fa952adafab3fcd40431f70832145" kind="variable"><name>_transition</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1ac010f1c7b56676737f25c329b0df8c13" kind="variable"><name>_sample_rate</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a144adb0b2b9edc7dccd042f6f1a839c5" kind="variable"><name>_energy_threshold</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a03695dc93945123f6c2fb054f87976b7" kind="variable"><name>d_offset</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a774fd89ecff245dc432a6267def0a836" kind="variable"><name>d_clock</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a8fd1f2bd5ab2ce3f68fdb330620834b1" kind="variable"><name>clock_error</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1ad0bae6a791347308abff7b5a93023926" kind="variable"><name>d_energy</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a7b8580629c1bc3b2c0962c581c37cc8d" kind="variable"><name>d_mode</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a82a2a6736fc780d37dd8fdd9e2fcf8fb" kind="variable"><name>pattern_sequence</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a8b4de3b992c23bd434e7c28a1ee2e86c" kind="variable"><name>freq_set</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1ae97bbcc4d9a6bffcdc47c208adad223f" kind="variable"><name>acq_buffer</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a2988f6f5a664391fada99d9d10c7b434" kind="variable"><name>track_buffer</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a678f7a36e930a7d027320e5928c9b98c" kind="variable"><name>track_filter</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1ae1cfa54965a36f226189c7cfaea41a6e" kind="variable"><name>code</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a77da68ad09ce41a87c228dbcb4c09d95" kind="function"><name>rx_synthesizer_impl</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a287a4edda6f4ac255f03eb9c4caf58bf" kind="function"><name>~rx_synthesizer_impl</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a43309ae608f0fb530cc4a31546f8ffac" kind="function"><name>generate_hop_freqs</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a6f632582c99251cb4e488ff315dcca9c" kind="function"><name>add_tag</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1aa81e4d35ae7ca3b6049a784ee7656b4b" kind="function"><name>transform</name></member>
+    <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a1065f0d20c383d1527514657fe12225d" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1Spread_1_1sync" kind="class"><name>gr::Spread::sync</name>
+    <member refid="classgr_1_1Spread_1_1sync_1aebdc7fcaad1ea22384f488de54b48be2" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1Spread_1_1sync_1a40fafd7c7ec9dac8b58f999c70f29a38" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1Spread_1_1sync__impl" kind="class"><name>gr::Spread::sync_impl</name>
+    <member refid="classgr_1_1Spread_1_1sync__impl_1aef6fd67d75231f88bba80c8ea4d2e0bf" kind="variable"><name>d_offset</name></member>
+    <member refid="classgr_1_1Spread_1_1sync__impl_1ab7fb23ce07bf8dc82eb10ce55a02af9a" kind="variable"><name>buffer_length</name></member>
+    <member refid="classgr_1_1Spread_1_1sync__impl_1a26b95f8a76decc7dccd86ab0453786ba" kind="variable"><name>buffer</name></member>
+    <member refid="classgr_1_1Spread_1_1sync__impl_1ac42a4c4c652536243348f6ce0939ea9c" kind="variable"><name>sync_bits</name></member>
+    <member refid="classgr_1_1Spread_1_1sync__impl_1a3edb3106c7567b48da5c966b5b0c1b83" kind="variable"><name>zero_pad</name></member>
+    <member refid="classgr_1_1Spread_1_1sync__impl_1a353c6ea30945f82051d5df31a711219f" kind="variable"><name>msg_queue</name></member>
+    <member refid="classgr_1_1Spread_1_1sync__impl_1afb2834ca319d4724abf48e453c4b006b" kind="function"><name>sync_impl</name></member>
+    <member refid="classgr_1_1Spread_1_1sync__impl_1ad997ff8215aaedbf677193f438f477df" kind="function"><name>~sync_impl</name></member>
+    <member refid="classgr_1_1Spread_1_1sync__impl_1a1cad89eae4747fd574b4d7a9055cf12e" kind="function"><name>pmt_in</name></member>
+    <member refid="classgr_1_1Spread_1_1sync__impl_1a338b89b867bb420f055a13cf8592b04a" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1Spread_1_1synthesizer" kind="class"><name>gr::Spread::synthesizer</name>
+    <member refid="classgr_1_1Spread_1_1synthesizer_1af928808b4d9bc3234d9ba0af90899deb" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1Spread_1_1synthesizer_1abfbdb3a78810e67e970af2ae88944c22" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1Spread_1_1synthesizer__impl" kind="class"><name>gr::Spread::synthesizer_impl</name>
+    <member refid="classgr_1_1Spread_1_1synthesizer__impl_1a4525d93aa56ef3b24b195272355cc3c2" kind="variable"><name>_samp_hop</name></member>
+    <member refid="classgr_1_1Spread_1_1synthesizer__impl_1ab315d39e9e3797fb9cc1cde426553a7b" kind="variable"><name>_size</name></member>
+    <member refid="classgr_1_1Spread_1_1synthesizer__impl_1ae5969b7f6e33fb54b575d0cee1ea5eea" kind="variable"><name>_sample_rate</name></member>
+    <member refid="classgr_1_1Spread_1_1synthesizer__impl_1aab396071965e716fdc0db461f0ee8555" kind="variable"><name>pattern_sequence</name></member>
+    <member refid="classgr_1_1Spread_1_1synthesizer__impl_1a722f5c85f3aa670be621a526e0a768b1" kind="variable"><name>freq_set</name></member>
+    <member refid="classgr_1_1Spread_1_1synthesizer__impl_1ac149515621568e1aefe0a551648d2d17" kind="variable"><name>code</name></member>
+    <member refid="classgr_1_1Spread_1_1synthesizer__impl_1a706981064d88658c71cdbedfe86eb210" kind="variable"><name>d_delay</name></member>
+    <member refid="classgr_1_1Spread_1_1synthesizer__impl_1adb3c676e0959ca250451bf2f3736f7b5" kind="variable"><name>d_clock</name></member>
+    <member refid="classgr_1_1Spread_1_1synthesizer__impl_1a620aa0e56250ba320eab455e42c19b88" kind="variable"><name>d_offset</name></member>
+    <member refid="classgr_1_1Spread_1_1synthesizer__impl_1aa00c62e0b7487ce021082ed72dc2f2bb" kind="function"><name>synthesizer_impl</name></member>
+    <member refid="classgr_1_1Spread_1_1synthesizer__impl_1a1e2b478a0faea4bca921a33c49106286" kind="function"><name>~synthesizer_impl</name></member>
+    <member refid="classgr_1_1Spread_1_1synthesizer__impl_1a6d04aa7b786efb2cf79f4cd08e8af0f0" kind="function"><name>generate_hop_freqs</name></member>
+    <member refid="classgr_1_1Spread_1_1synthesizer__impl_1ad656be51c6b47189b87a64af12252723" kind="function"><name>transform</name></member>
+    <member refid="classgr_1_1Spread_1_1synthesizer__impl_1af3f98afdb28328098949e9ad6f586c38" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1Spread" kind="namespace"><name>gr::Spread</name>
+    <member refid="namespacegr_1_1Spread_1aacd0c7546df220d4339edb558d6be2cf" kind="variable"><name>__attribute__</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a5f1333e78cc3bfd00e96312602d2704d" kind="define"><name>SPREAD_API</name></member>
+  </compound>
+  <compound refid="code__generator_8h" kind="file"><name>code_generator.h</name>
+  </compound>
+  <compound refid="common_8h" kind="file"><name>common.h</name>
+    <member refid="common_8h_1a789d352559efaa396a258805d44f4289" kind="typedef"><name>bit</name></member>
+    <member refid="common_8h_1aad4dead84a9a2396b289c2751d5a470b" kind="typedef"><name>polynomial</name></member>
+    <member refid="common_8h_1a3bb92f819b7e1fa29c79a8b6b575ec13" kind="function"><name>unpack_bytes</name></member>
+  </compound>
+  <compound refid="cpfsk__demod_8h" kind="file"><name>cpfsk_demod.h</name>
+  </compound>
+  <compound refid="cpfsk__demod__impl_8h" kind="file"><name>cpfsk_demod_impl.h</name>
+  </compound>
+  <compound refid="cpfsk__mod_8h" kind="file"><name>cpfsk_mod.h</name>
+  </compound>
+  <compound refid="cpfsk__mod__impl_8h" kind="file"><name>cpfsk_mod_impl.h</name>
+  </compound>
+  <compound refid="deframer_8h" kind="file"><name>deframer.h</name>
+  </compound>
+  <compound refid="deframer__impl_8h" kind="file"><name>deframer_impl.h</name>
+  </compound>
+  <compound refid="ds__despreader_8h" kind="file"><name>ds_despreader.h</name>
+  </compound>
+  <compound refid="ds__despreader__impl_8h" kind="file"><name>ds_despreader_impl.h</name>
+  </compound>
+  <compound refid="ds__spreader_8h" kind="file"><name>ds_spreader.h</name>
+  </compound>
+  <compound refid="ds__spreader__impl_8h" kind="file"><name>ds_spreader_impl.h</name>
+  </compound>
+  <compound refid="format_8h" kind="file"><name>format.h</name>
+    <member refid="format_8h_1a1d127017fb298b889f4ba24752d08b8e" kind="variable"><name>type</name></member>
+    <member refid="format_8h_1a45d1eff7a4ca4132cc628d49ec67890a" kind="variable"><name>dst</name></member>
+    <member refid="format_8h_1af5eca485cd2b34522478907d4c8f5bc6" kind="variable"><name>src</name></member>
+    <member refid="format_8h_1a5723e60ffd628510c699eddbce90be23" kind="variable"><name>len</name></member>
+    <member refid="format_8h_1a1b7900454baae71fabc75eac30692074" kind="function"><name>__attribute__</name></member>
+  </compound>
+  <compound refid="framer_8h" kind="file"><name>framer.h</name>
+  </compound>
+  <compound refid="framer__impl_8h" kind="file"><name>framer_impl.h</name>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="msg__source_8h" kind="file"><name>msg_source.h</name>
+  </compound>
+  <compound refid="msg__source__impl_8h" kind="file"><name>msg_source_impl.h</name>
+  </compound>
+  <compound refid="preamble__bb_8h" kind="file"><name>preamble_bb.h</name>
+  </compound>
+  <compound refid="preamble__cc_8h" kind="file"><name>preamble_cc.h</name>
+  </compound>
+  <compound refid="rx__sync_8h" kind="file"><name>rx_sync.h</name>
+  </compound>
+  <compound refid="rx__sync__impl_8h" kind="file"><name>rx_sync_impl.h</name>
+  </compound>
+  <compound refid="rx__synthesizer_8h" kind="file"><name>rx_synthesizer.h</name>
+  </compound>
+  <compound refid="rx__synthesizer__impl_8h" kind="file"><name>rx_synthesizer_impl.h</name>
+  </compound>
+  <compound refid="sync_8h" kind="file"><name>sync.h</name>
+  </compound>
+  <compound refid="sync__impl_8h" kind="file"><name>sync_impl.h</name>
+  </compound>
+  <compound refid="synthesizer_8h" kind="file"><name>synthesizer.h</name>
+  </compound>
+  <compound refid="synthesizer__impl_8h" kind="file"><name>synthesizer_impl.h</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_49e56c817e5e54854c35e136979f97ca" kind="dir"><name>docs</name>
+  </compound>
+  <compound refid="dir_359d2bec989c9a8deeeb9aee335c1c76" kind="dir"><name>doxygen</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_8f2980731aba7ec7b9fcae5764f196e3" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_f2cd86917185299abf5a1f0679072f3c" kind="dir"><name>other</name>
+  </compound>
+  <compound refid="dir_d9a5d0c8db7f236bf56199053e80496d" kind="dir"><name>Spread</name>
+  </compound>
+  <compound refid="dir_45d652650891878eeb01acce54aa86ed" kind="dir"><name>Spread</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

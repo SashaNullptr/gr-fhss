@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1Spread_1_1deframer" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::Spread::deframer</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1Spread_1_1deframer__impl" prot="public" virt="non-virtual">gr::Spread::deframer_impl</derivedcompoundref>
+    <includes refid="deframer_8h" local="no">deframer.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1Spread_1_1deframer_1aae55d78c5a12ff76ed3041f4dd92dee1" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1Spread_1_1deframer" kindref="compound">deframer</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;deframer&gt; gr::Spread::deframer::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/include/Spread/deframer.h" line="39" column="33" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/include/Spread/deframer.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1Spread_1_1deframer_1ac93915e890f1902df9c29cf2d5a73318" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1Spread_1_1deframer_1aae55d78c5a12ff76ed3041f4dd92dee1" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::Spread::deframer::make</definition>
+        <argsstring>(int test)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>test</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1Spread_1_1deframer" kindref="compound">Spread::deframer</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1Spread_1_1deframer" kindref="compound">Spread::deframer</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1Spread_1_1deframer_1ac93915e890f1902df9c29cf2d5a73318" kindref="member">Spread::deframer::make</ref> is the public interface for creating new instances. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/include/Spread/deframer.h" line="49" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1Spread_1_1deframer_1ad8e57918c998ea943d5add3a9dd93541" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>int</type>
+        <definition>virtual int gr::Spread::deframer::passed_checks</definition>
+        <argsstring>() const =0</argsstring>
+        <name>passed_checks</name>
+        <reimplementedby refid="classgr_1_1Spread_1_1deframer__impl_1a38a94d2d0176487132d41f46d94d7833">passed_checks</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/include/Spread/deframer.h" line="51" column="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This block extracts the data and performs an error check. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>block</label>
+      </node>
+      <node id="3">
+        <label>gr::Spread::deframer_impl</label>
+        <link refid="classgr_1_1Spread_1_1deframer__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::Spread::deframer</label>
+        <link refid="classgr_1_1Spread_1_1deframer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>block</label>
+      </node>
+      <node id="1">
+        <label>gr::Spread::deframer</label>
+        <link refid="classgr_1_1Spread_1_1deframer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/alex/pybombs/bladeRF/src/gr-spread/include/Spread/deframer.h" line="37" column="1" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/include/Spread/deframer.h" bodystart="36" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classgr_1_1Spread_1_1deframer_1ac93915e890f1902df9c29cf2d5a73318" prot="public" virt="non-virtual"><scope>gr::Spread::deframer</scope><name>make</name></member>
+      <member refid="classgr_1_1Spread_1_1deframer_1ad8e57918c998ea943d5add3a9dd93541" prot="public" virt="pure-virtual"><scope>gr::Spread::deframer</scope><name>passed_checks</name></member>
+      <member refid="classgr_1_1Spread_1_1deframer_1aae55d78c5a12ff76ed3041f4dd92dee1" prot="public" virt="non-virtual"><scope>gr::Spread::deframer</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

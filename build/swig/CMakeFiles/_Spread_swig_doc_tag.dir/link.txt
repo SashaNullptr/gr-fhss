@@ -1,0 +1,1 @@
+/usr/bin/c++  -O2 -g -DNDEBUG  -rdynamic CMakeFiles/_Spread_swig_doc_tag.dir/_Spread_swig_doc_tag.cpp.o  -o _Spread_swig_doc_tag 

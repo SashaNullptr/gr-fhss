@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1Spread_1_1ds__spreader" kind="class" language="C++" prot="public">
+    <compoundname>gr::Spread::ds_spreader</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1Spread_1_1ds__spreader__impl" prot="public" virt="non-virtual">gr::Spread::ds_spreader_impl</derivedcompoundref>
+    <includes refid="ds__spreader_8h" local="no">ds_spreader.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1Spread_1_1ds__spreader_1af9f6740d9f3b2649afad7ae9e3944c1c" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1Spread_1_1ds__spreader" kindref="compound">ds_spreader</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;ds_spreader&gt; gr::Spread::ds_spreader::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/include/Spread/ds_spreader.h" line="39" column="33" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/include/Spread/ds_spreader.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1Spread_1_1ds__spreader_1aec1a4319c3085f5f9685aa6fe376fbd0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1Spread_1_1ds__spreader_1af9f6740d9f3b2649afad7ae9e3944c1c" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::Spread::ds_spreader::make</definition>
+        <argsstring>(const int samples_per_chip, const std::vector&lt; unsigned char &gt; gen, const std::vector&lt; unsigned char &gt; init)</argsstring>
+        <name>make</name>
+        <param>
+          <type>const int</type>
+          <declname>samples_per_chip</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; unsigned char &gt;</type>
+          <declname>gen</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; unsigned char &gt;</type>
+          <declname>init</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1Spread_1_1ds__spreader" kindref="compound">Spread::ds_spreader</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1Spread_1_1ds__spreader" kindref="compound">Spread::ds_spreader</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1Spread_1_1ds__spreader_1aec1a4319c3085f5f9685aa6fe376fbd0" kindref="member">Spread::ds_spreader::make</ref> is the public interface for creating new instances. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/include/Spread/ds_spreader.h" line="49" column="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Direct-sequence spreading of a DBPSK signal. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>sync_block</label>
+      </node>
+      <node id="1">
+        <label>gr::Spread::ds_spreader</label>
+        <link refid="classgr_1_1Spread_1_1ds__spreader"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::Spread::ds_spreader_impl</label>
+        <link refid="classgr_1_1Spread_1_1ds__spreader__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>sync_block</label>
+      </node>
+      <node id="1">
+        <label>gr::Spread::ds_spreader</label>
+        <link refid="classgr_1_1Spread_1_1ds__spreader"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/alex/pybombs/bladeRF/src/gr-spread/include/Spread/ds_spreader.h" line="37" column="1" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/include/Spread/ds_spreader.h" bodystart="36" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classgr_1_1Spread_1_1ds__spreader_1aec1a4319c3085f5f9685aa6fe376fbd0" prot="public" virt="non-virtual"><scope>gr::Spread::ds_spreader</scope><name>make</name></member>
+      <member refid="classgr_1_1Spread_1_1ds__spreader_1af9f6740d9f3b2649afad7ae9e3944c1c" prot="public" virt="non-virtual"><scope>gr::Spread::ds_spreader</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

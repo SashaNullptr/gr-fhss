@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1Spread_1_1rx__synthesizer" kind="class" language="C++" prot="public">
+    <compoundname>gr::Spread::rx_synthesizer</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1Spread_1_1rx__synthesizer__impl" prot="public" virt="non-virtual">gr::Spread::rx_synthesizer_impl</derivedcompoundref>
+    <includes refid="rx__synthesizer_8h" local="no">rx_synthesizer.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1Spread_1_1rx__synthesizer_1a28c26851aadd40dcaaadbd80a9b28dc6" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1Spread_1_1rx__synthesizer" kindref="compound">rx_synthesizer</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;rx_synthesizer&gt; gr::Spread::rx_synthesizer::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/include/Spread/rx_synthesizer.h" line="39" column="33" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/include/Spread/rx_synthesizer.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1Spread_1_1rx__synthesizer_1abc2f5a40a81bfac54a42c754cf952670" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1Spread_1_1rx__synthesizer_1a28c26851aadd40dcaaadbd80a9b28dc6" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::Spread::rx_synthesizer::make</definition>
+        <argsstring>(const int samples_per_hop, const int samples_per_symbol, const double sample_rate, const double high_freq, const double transition, const double energy_threshold, const std::vector&lt; unsigned char &gt; gen, const std::vector&lt; unsigned char &gt; init)</argsstring>
+        <name>make</name>
+        <param>
+          <type>const int</type>
+          <declname>samples_per_hop</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>samples_per_symbol</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>sample_rate</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>high_freq</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>transition</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>energy_threshold</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; unsigned char &gt;</type>
+          <declname>gen</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; unsigned char &gt;</type>
+          <declname>init</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1Spread_1_1rx__synthesizer" kindref="compound">Spread::rx_synthesizer</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1Spread_1_1rx__synthesizer" kindref="compound">Spread::rx_synthesizer</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1Spread_1_1rx__synthesizer_1abc2f5a40a81bfac54a42c754cf952670" kindref="member">Spread::rx_synthesizer::make</ref> is the public interface for creating new instances. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/include/Spread/rx_synthesizer.h" line="49" column="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Despreads incoming complex baseband samples. <linebreak/>
+ </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::Spread::rx_synthesizer</label>
+        <link refid="classgr_1_1Spread_1_1rx__synthesizer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>sync_block</label>
+      </node>
+      <node id="3">
+        <label>gr::Spread::rx_synthesizer_impl</label>
+        <link refid="classgr_1_1Spread_1_1rx__synthesizer__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::Spread::rx_synthesizer</label>
+        <link refid="classgr_1_1Spread_1_1rx__synthesizer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/alex/pybombs/bladeRF/src/gr-spread/include/Spread/rx_synthesizer.h" line="37" column="1" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/include/Spread/rx_synthesizer.h" bodystart="36" bodyend="57"/>
+    <listofallmembers>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer_1abc2f5a40a81bfac54a42c754cf952670" prot="public" virt="non-virtual"><scope>gr::Spread::rx_synthesizer</scope><name>make</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer_1a28c26851aadd40dcaaadbd80a9b28dc6" prot="public" virt="non-virtual"><scope>gr::Spread::rx_synthesizer</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

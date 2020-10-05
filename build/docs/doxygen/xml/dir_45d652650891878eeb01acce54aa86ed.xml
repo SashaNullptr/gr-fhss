@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_45d652650891878eeb01acce54aa86ed" kind="dir">
+    <compoundname>Spread</compoundname>
+    <innerfile refid="preamble__bb_8h">preamble_bb.h</innerfile>
+    <innerfile refid="preamble__cc_8h">preamble_cc.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/alex/pybombs/bladeRF/src/gr-spread/build/include/Spread/"/>
+  </compounddef>
+</doxygen>

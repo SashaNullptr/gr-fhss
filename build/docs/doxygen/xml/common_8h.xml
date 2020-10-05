@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="common_8h" kind="file" language="C++">
+    <compoundname>common.h</compoundname>
+    <includes local="no">vector</includes>
+    <includes local="no">cmath</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">stdexcept</includes>
+    <includedby refid="code__generator_8h" local="yes">code_generator.h</includedby>
+    <includedby refid="rx__sync__impl_8h" local="yes">rx_sync_impl.h</includedby>
+    <includedby refid="sync__impl_8h" local="yes">sync_impl.h</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>cmath</label>
+      </node>
+      <node id="5">
+        <label>stdexcept</label>
+      </node>
+      <node id="2">
+        <label>vector</label>
+      </node>
+      <node id="4">
+        <label>iostream</label>
+      </node>
+      <node id="1">
+        <label>common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>ds_despreader_impl.h</label>
+        <link refid="ds__despreader__impl_8h"/>
+      </node>
+      <node id="6">
+        <label>synthesizer_impl.h</label>
+        <link refid="synthesizer__impl_8h"/>
+      </node>
+      <node id="2">
+        <label>code_generator.h</label>
+        <link refid="code__generator_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>sync_impl.h</label>
+        <link refid="sync__impl_8h"/>
+      </node>
+      <node id="5">
+        <label>rx_synthesizer_impl.h</label>
+        <link refid="rx__synthesizer__impl_8h"/>
+      </node>
+      <node id="7">
+        <label>rx_sync_impl.h</label>
+        <link refid="rx__sync__impl_8h"/>
+      </node>
+      <node id="4">
+        <label>ds_spreader_impl.h</label>
+        <link refid="ds__spreader__impl_8h"/>
+      </node>
+      <node id="1">
+        <label>common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="common_8h_1a789d352559efaa396a258805d44f4289" prot="public" static="no">
+        <type>unsigned char</type>
+        <definition>typedef unsigned char bit</definition>
+        <argsstring></argsstring>
+        <name>bit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/common.h" line="29" column="23" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/common.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="common_8h_1aad4dead84a9a2396b289c2751d5a470b" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="common_8h_1a789d352559efaa396a258805d44f4289" kindref="member">bit</ref> &gt;</type>
+        <definition>typedef std::vector&lt;bit&gt; polynomial</definition>
+        <argsstring></argsstring>
+        <name>polynomial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/common.h" line="30" column="21" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/common.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="common_8h_1a3bb92f819b7e1fa29c79a8b6b575ec13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void unpack_bytes</definition>
+        <argsstring>(char *out, const char *packed, const int size)</argsstring>
+        <name>unpack_bytes</name>
+        <param>
+          <type>char *</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>packed</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/common.h" line="32" column="6" declfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/common.h" declline="32" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/common.h"/>
+  </compounddef>
+</doxygen>

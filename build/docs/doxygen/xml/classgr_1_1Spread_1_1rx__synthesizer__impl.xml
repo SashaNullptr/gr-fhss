@@ -1,0 +1,463 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1Spread_1_1rx__synthesizer__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::Spread::rx_synthesizer_impl</compoundname>
+    <basecompoundref refid="classgr_1_1Spread_1_1rx__synthesizer" prot="public" virt="non-virtual">gr::Spread::rx_synthesizer</basecompoundref>
+    <includes refid="rx__synthesizer__impl_8h" local="no">rx_synthesizer_impl.h</includes>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="classgr_1_1Spread_1_1rx__synthesizer__impl_1a9bbbbd13afb257f8557e313285a2340f" prot="private" static="no" strong="no">
+        <type></type>
+        <name>modes</name>
+        <enumvalue id="classgr_1_1Spread_1_1rx__synthesizer__impl_1a9bbbbd13afb257f8557e313285a2340faee31273ea74ca3f1f8dc181c08794227" prot="private">
+          <name>SYNC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1Spread_1_1rx__synthesizer__impl_1a9bbbbd13afb257f8557e313285a2340fab4e8a3c917bf1439e0ae8a4970fe4645" prot="private">
+          <name>TRACK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" line="49" column="17" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__synthesizer__impl_1a8523484f8a7145403cb0d5d92ab7d2fd" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::Spread::rx_synthesizer_impl::_samp_hop</definition>
+        <argsstring></argsstring>
+        <name>_samp_hop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" line="36" column="17" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__synthesizer__impl_1acb7fd16619bb6aa0ba62397abaf38281" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::Spread::rx_synthesizer_impl::_samp_sym</definition>
+        <argsstring></argsstring>
+        <name>_samp_sym</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" line="37" column="17" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__synthesizer__impl_1a1b2e0607a5c06903bae576aeb1039fbe" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::Spread::rx_synthesizer_impl::_size</definition>
+        <argsstring></argsstring>
+        <name>_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" line="38" column="17" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__synthesizer__impl_1a811fa952adafab3fcd40431f70832145" prot="private" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double gr::Spread::rx_synthesizer_impl::_transition</definition>
+        <argsstring></argsstring>
+        <name>_transition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" line="40" column="20" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__synthesizer__impl_1ac010f1c7b56676737f25c329b0df8c13" prot="private" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double gr::Spread::rx_synthesizer_impl::_sample_rate</definition>
+        <argsstring></argsstring>
+        <name>_sample_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" line="41" column="20" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__synthesizer__impl_1a144adb0b2b9edc7dccd042f6f1a839c5" prot="private" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double gr::Spread::rx_synthesizer_impl::_energy_threshold</definition>
+        <argsstring></argsstring>
+        <name>_energy_threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" line="42" column="20" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__synthesizer__impl_1a03695dc93945123f6c2fb054f87976b7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::Spread::rx_synthesizer_impl::d_offset</definition>
+        <argsstring></argsstring>
+        <name>d_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" line="44" column="11" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__synthesizer__impl_1a774fd89ecff245dc432a6267def0a836" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::Spread::rx_synthesizer_impl::d_clock</definition>
+        <argsstring></argsstring>
+        <name>d_clock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" line="44" column="20" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__synthesizer__impl_1a8fd1f2bd5ab2ce3f68fdb330620834b1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::Spread::rx_synthesizer_impl::clock_error</definition>
+        <argsstring></argsstring>
+        <name>clock_error</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" line="45" column="11" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__synthesizer__impl_1ad0bae6a791347308abff7b5a93023926" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::Spread::rx_synthesizer_impl::d_energy</definition>
+        <argsstring></argsstring>
+        <name>d_energy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" line="47" column="13" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__synthesizer__impl_1a7b8580629c1bc3b2c0962c581c37cc8d" prot="private" static="no" mutable="no">
+        <type>enum gr::Spread::rx_synthesizer_impl::modes</type>
+        <definition>enum gr::Spread::rx_synthesizer_impl::modes gr::Spread::rx_synthesizer_impl::d_mode</definition>
+        <argsstring></argsstring>
+        <name>d_mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" line="49" column="24"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__synthesizer__impl_1a82a2a6736fc780d37dd8fdd9e2fcf8fb" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; gr::Spread::rx_synthesizer_impl::pattern_sequence</definition>
+        <argsstring></argsstring>
+        <name>pattern_sequence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" line="51" column="19" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__synthesizer__impl_1a8b4de3b992c23bd434e7c28a1ee2e86c" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; gr::Spread::rx_synthesizer_impl::freq_set</definition>
+        <argsstring></argsstring>
+        <name>freq_set</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" line="52" column="19" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__synthesizer__impl_1ae97bbcc4d9a6bffcdc47c208adad223f" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; gr::Spread::rx_synthesizer_impl::acq_buffer</definition>
+        <argsstring></argsstring>
+        <name>acq_buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" line="54" column="19" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__synthesizer__impl_1a2988f6f5a664391fada99d9d10c7b434" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; gr::Spread::rx_synthesizer_impl::track_buffer</definition>
+        <argsstring></argsstring>
+        <name>track_buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" line="55" column="19" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__synthesizer__impl_1a678f7a36e930a7d027320e5928c9b98c" prot="private" static="no" mutable="no">
+        <type>filter::kernel::fir_filter_ccf *</type>
+        <definition>filter::kernel::fir_filter_ccf* gr::Spread::rx_synthesizer_impl::track_filter</definition>
+        <argsstring></argsstring>
+        <name>track_filter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" line="57" column="39" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Spread_1_1rx__synthesizer__impl_1ae1cfa54965a36f226189c7cfaea41a6e" prot="private" static="no" mutable="no">
+        <type><ref refid="classLFSR" kindref="compound">LFSR</ref> *</type>
+        <definition>LFSR* gr::Spread::rx_synthesizer_impl::code</definition>
+        <argsstring></argsstring>
+        <name>code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" line="59" column="13" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1Spread_1_1rx__synthesizer__impl_1a77da68ad09ce41a87c228dbcb4c09d95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::Spread::rx_synthesizer_impl::rx_synthesizer_impl</definition>
+        <argsstring>(const int samples_per_hop, const int samples_per_symbol, const double sample_rate, const double high_freq, const double transition, const double energy_threshold, const polynomial gen, const polynomial init)</argsstring>
+        <name>rx_synthesizer_impl</name>
+        <param>
+          <type>const int</type>
+          <declname>samples_per_hop</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>samples_per_symbol</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>sample_rate</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>high_freq</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>transition</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>energy_threshold</declname>
+        </param>
+        <param>
+          <type>const <ref refid="common_8h_1aad4dead84a9a2396b289c2751d5a470b" kindref="member">polynomial</ref></type>
+          <declname>gen</declname>
+        </param>
+        <param>
+          <type>const <ref refid="common_8h_1aad4dead84a9a2396b289c2751d5a470b" kindref="member">polynomial</ref></type>
+          <declname>init</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" line="62" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1Spread_1_1rx__synthesizer__impl_1a287a4edda6f4ac255f03eb9c4caf58bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::Spread::rx_synthesizer_impl::~rx_synthesizer_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~rx_synthesizer_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" line="71" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1Spread_1_1rx__synthesizer__impl_1a43309ae608f0fb530cc4a31546f8ffac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::Spread::rx_synthesizer_impl::generate_hop_freqs</definition>
+        <argsstring>()</argsstring>
+        <name>generate_hop_freqs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" line="73" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1Spread_1_1rx__synthesizer__impl_1a6f632582c99251cb4e488ff315dcca9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::Spread::rx_synthesizer_impl::add_tag</definition>
+        <argsstring>(uint64_t item)</argsstring>
+        <name>add_tag</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" line="74" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1Spread_1_1rx__synthesizer__impl_1aa81e4d35ae7ca3b6049a784ee7656b4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::Spread::rx_synthesizer_impl::transform</definition>
+        <argsstring>(double freq, gr_complex sample)</argsstring>
+        <name>transform</name>
+        <param>
+          <type>double</type>
+          <declname>freq</declname>
+        </param>
+        <param>
+          <type>gr_complex</type>
+          <declname>sample</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" line="76" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1Spread_1_1rx__synthesizer__impl_1a1065f0d20c383d1527514657fe12225d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::Spread::rx_synthesizer_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" line="78" column="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::Spread::rx_synthesizer</label>
+        <link refid="classgr_1_1Spread_1_1rx__synthesizer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>sync_block</label>
+      </node>
+      <node id="1">
+        <label>gr::Spread::rx_synthesizer_impl</label>
+        <link refid="classgr_1_1Spread_1_1rx__synthesizer__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::Spread::rx_synthesizer</label>
+        <link refid="classgr_1_1Spread_1_1rx__synthesizer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>sync_block</label>
+      </node>
+      <node id="1">
+        <label>gr::Spread::rx_synthesizer_impl</label>
+        <link refid="classgr_1_1Spread_1_1rx__synthesizer__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" line="34" column="1" bodyfile="/home/alex/pybombs/bladeRF/src/gr-spread/lib/rx_synthesizer_impl.h" bodystart="33" bodyend="81"/>
+    <listofallmembers>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a144adb0b2b9edc7dccd042f6f1a839c5" prot="private" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>_energy_threshold</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a8523484f8a7145403cb0d5d92ab7d2fd" prot="private" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>_samp_hop</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1acb7fd16619bb6aa0ba62397abaf38281" prot="private" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>_samp_sym</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1ac010f1c7b56676737f25c329b0df8c13" prot="private" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>_sample_rate</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a1b2e0607a5c06903bae576aeb1039fbe" prot="private" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>_size</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a811fa952adafab3fcd40431f70832145" prot="private" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>_transition</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1ae97bbcc4d9a6bffcdc47c208adad223f" prot="private" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>acq_buffer</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a6f632582c99251cb4e488ff315dcca9c" prot="public" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>add_tag</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a8fd1f2bd5ab2ce3f68fdb330620834b1" prot="private" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>clock_error</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1ae1cfa54965a36f226189c7cfaea41a6e" prot="private" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>code</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a774fd89ecff245dc432a6267def0a836" prot="private" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>d_clock</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1ad0bae6a791347308abff7b5a93023926" prot="private" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>d_energy</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a7b8580629c1bc3b2c0962c581c37cc8d" prot="private" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>d_mode</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a03695dc93945123f6c2fb054f87976b7" prot="private" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>d_offset</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a8b4de3b992c23bd434e7c28a1ee2e86c" prot="private" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>freq_set</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a43309ae608f0fb530cc4a31546f8ffac" prot="public" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>generate_hop_freqs</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer_1abc2f5a40a81bfac54a42c754cf952670" prot="public" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a9bbbbd13afb257f8557e313285a2340f" prot="private" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>modes</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a82a2a6736fc780d37dd8fdd9e2fcf8fb" prot="private" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>pattern_sequence</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a77da68ad09ce41a87c228dbcb4c09d95" prot="public" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>rx_synthesizer_impl</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer_1a28c26851aadd40dcaaadbd80a9b28dc6" prot="public" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a9bbbbd13afb257f8557e313285a2340faee31273ea74ca3f1f8dc181c08794227" prot="private" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>SYNC</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a9bbbbd13afb257f8557e313285a2340fab4e8a3c917bf1439e0ae8a4970fe4645" prot="private" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>TRACK</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a2988f6f5a664391fada99d9d10c7b434" prot="private" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>track_buffer</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a678f7a36e930a7d027320e5928c9b98c" prot="private" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>track_filter</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1aa81e4d35ae7ca3b6049a784ee7656b4b" prot="public" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>transform</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a1065f0d20c383d1527514657fe12225d" prot="public" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1Spread_1_1rx__synthesizer__impl_1a287a4edda6f4ac255f03eb9c4caf58bf" prot="public" virt="non-virtual"><scope>gr::Spread::rx_synthesizer_impl</scope><name>~rx_synthesizer_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
